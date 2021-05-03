@@ -25,4 +25,9 @@
     <Folder Include="Data\Migrations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Uplift.Models\Uplift.Models.csproj" />
+    <ProjectReference Include="..\Uplift.Utility\Uplift.Utility.csproj" />
+  </ItemGroup>
+
 </Project>
